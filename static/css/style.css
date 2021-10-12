@@ -1,0 +1,196 @@
+.card-01 {
+	box-shadow: 1px 3px 10px 5px grey;
+}
+
+.remove-default-btn {
+	border: none; 
+	background-color: transparent; 
+	box-shadow: none;
+}
+
+.edit-color {
+	color: #333;
+}
+
+.text-link {
+	text-decoration: none;
+}
+
+.post-text {
+	padding-top: 0.5rem;
+}
+
+
+.post-img {
+	float: left;
+	margin-right: 1rem;
+}
+
+.child-comment {
+	margin-left: 3rem;
+}
+
+.notification-badge {
+	transition: 0.3s;
+	width: 2rem;
+	height: 1.5rem;
+}
+
+.notification-badge:hover {
+	cursor: pointer;
+	opacity: 0.75;
+	transition: 0.3s;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 350px;
+	box-shadow: 0px 8px 8px 0px rgba(0,0,0,0,2);
+	z-index: 1;
+	font-size: 1rem;
+}
+
+.dropdown-content a {
+	color: #000;
+	min-height: 40px;
+	padding-top: 10px;
+	padding-left: 10px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown-item-parent {
+	position: relative;
+	display: block;
+}
+
+.dropdown-item-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 1.8rem;
+	padding-right: 5px;
+	transition: 0.3s;
+	z-index: 2;
+}
+
+.dropdown-item-close:hover {
+	color: rgb(180, 25, 25);
+	transition: 0.3s;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.post-image {
+	max-width: 100%;
+	max-height: auto;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.inbox-icon-container {
+	margin-right: 15px;
+}
+
+.inbox-icon {
+	color: #333;
+	transition: 0.5s;
+}
+
+.inbox-icon:hover {
+	transition: 0.5s;
+}
+
+.empty-text {
+	color: orangered;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.sent-message {
+	background-color: #f3f3f3;
+	border-radius: 30px;
+	padding-top: 15px;
+	padding-left: 25px;
+	padding-bottom: 5px;
+	padding-right: 25px;
+	width: 35%;
+}
+
+.receiver-message {
+	background-color: rgb(1, 196, 255);
+	color: #fff;
+	border-radius: 30px;
+	padding-top: 15px;
+	padding-left: 25px;
+	padding-bottom: 5px;
+	padding-right: 25px;
+	width: 35%;
+	margin-left: auto;
+	clear: both;
+}
+
+.message-receiver-container {
+	text-align: right;
+}
+
+.message-image {
+	border-radius: 10px;
+	max-width: 35%;
+	height: auto;
+}
+
+.inbox-icon-template {
+	margin-right: 5px;
+	color: #87CEFA;
+}
+
+.inbox-message {
+	background-color: #FFFAFA;
+}
+
+.inbox-text {
+	color: #483D8B;
+}
+
+
+.box-size {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: 500px;
+	width: auto;
+}
+
+.logged-text {
+	font-size: 2rem;
+}
+
+.logged-name {
+	color: darkblue;
+}
+
+.bg-custom {
+	background-color: white;
+}
+
+.share-btn {
+	cursor: pointer;
+}
+
+.shared-post {
+	margin-left: 30px;
+}
+
+.shared-card {
+	background-color: red;
+}
